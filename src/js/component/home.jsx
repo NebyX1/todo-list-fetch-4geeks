@@ -24,7 +24,7 @@ const Home = () => {
 
     const clickBorrar = () => {
         setTodos([])
-        killTodos()
+
     }
 
 
@@ -35,7 +35,6 @@ const Home = () => {
   useEffect(() => {
     getTodos()
   uptdateTodos()
-  console.log(todosEnServer)
   },[todos])
 
 
